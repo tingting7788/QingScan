@@ -6,6 +6,7 @@ services:
 #    network_mode: "host"
     ports:
       - "8000:8000"
+      - "13306:3306"
     stdin_open: true
     tty: true
     #command: /bin/bash -c "cd /root/qingscan  && git fetch && git reset --hard origin/main &&  php /root/qingscan/safe.php"
